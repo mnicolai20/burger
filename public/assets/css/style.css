@@ -2,8 +2,17 @@
   overflow: auto;
 }
 
+#contents {
+  background-color:  rgb(255, 217, 0);
+}
+
 #burger {
   text-align: center;
+}
+
+#honk {
+  border-radius: 50%;
+  width: 20%;
 }
 
 .devoured {
