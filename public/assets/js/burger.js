@@ -1,10 +1,10 @@
-// Make sure we wait to attach our handlers until the DOM is fully loaded.
+
 $(function() {
   $(".change-devour").on("click", function(event) {
-    var id = $(this).data("id");
-    var newDevour = $(this).data("newDevour");
+    const id = $(this).data("id");
+    const newDevour = $(this).data("newDevour");
 
-    var newDevourState = {
+    const newDevourState = {
       devour: newDevour
     };
 
@@ -25,7 +25,7 @@ $(function() {
     // Make sure to preventDefault on a submit event.
     event.preventDefault();
 
-    var newBurger = {
+    const newBurger = {
       name: $("#ca").val().trim(),
       devour: $("[name=devour]:checked").val().trim()
     };
@@ -44,7 +44,7 @@ $(function() {
   });
 
   $(".delete-burger").on("click", function(event) {
-    var id = $(this).data("id");
+    const id = $(this).data("id");
 
     // Send the DELETE request.
     $.ajax("/api/burger/" + id, {

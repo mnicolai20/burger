@@ -1,3 +1,26 @@
+.clearfix {
+  overflow: auto;
+}
+
+#burger {
+  text-align: center;
+}
+
+.devoured {
+  float: right;
+  margin-right: 18%;
+}
+
+.notDev {
+  float: left;
+  margin-left: 18%;
+}
+
+.newBurg {
+  text-align: center;
+  margin-top: 12%;
+}
+
 li {
   padding: 5px;
   margin: 5px;
@@ -15,5 +38,10 @@ li {
 }
 
 .form-group {
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.devGroup {
   margin-bottom: 5px;
 }
