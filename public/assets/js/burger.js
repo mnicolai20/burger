@@ -1,4 +1,5 @@
 
+// on click function for devour
 $(function() {
   $(".change-devour").on("click", function(event) {
     const id = $(this).data("id");
